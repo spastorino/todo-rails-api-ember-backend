@@ -1,24 +1,9 @@
 ## README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+bundle
 
-Things you may want to cover:
+bin/rake db:migrate
 
-* Ruby version
+bin/rails r "Todo.create title: 'Todo 1'"
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+bin/rails s
